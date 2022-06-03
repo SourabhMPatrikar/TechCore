@@ -1,0 +1,108 @@
+
+.home{position:relative;}
+.home > .panel-left, .home > .panel-right > .heading{position:absolute;}
+.home > .panel-left{width:calc(50% - 4px); top:31px; background:#111; height:calc(100% - 31px);}
+.home > .panel-right{width:50%;}
+.home > .panel-right > .heading{left:-4px; top:0; width:calc(100% + 4px); z-index:0;}
+.home > .panel-left > .panel-left-content{max-width:360px;}
+.home > .panel-right > .panel-right-content{max-width:600px;}
+
+
+
+
+
+.home-jumbotron .heading h2, .home-text .heading h4, .home-text p,
+.home-sector, .home-text .heading h3, .home-feed .heading h4, .home-feed .blog-listing, .home-bifurcation .heading h6,
+.card-bifurcation, .home-testimonial, .home-testimonial .heading h5, .home-testimonial-text, .home-testimonial-text p, .home-testimonial-writter
+{width:100%; float:left;}
+
+.home-sector, .home-sector li{padding:0; margin:0;}
+
+.home-sector li .heading h4, .home-text .heading h4{font-size:20px; line-height:22px;}
+
+.home-sector li p, .home-text p{font-size:15px; line-height:24px;}
+
+.home-testimonial-text p, .home-testimonial-writter abbr{font-size:16px; line-height:26px;}
+
+.home-bifurcation .card-body .heading h6, .home-testimonial-writter abbr{font-size:18px; line-height:24px;}
+
+
+.home-text .heading h3, 
+.home-text .heading h4,
+.home-feed .heading h4, .home-bifurcation .heading h6,
+.home-testimonial .heading h5, .home-testimonial-text p{text-align:center; margin:0 0 10px;}
+
+
+
+.home-jumbotron{/* background:#FDFDFD; */
+background: #eeeeee; /* Old browsers */
+background: -moz-linear-gradient(left,  #eeeeee 0%, #eeeeee 50%, #ffc107 50%, #ffc107 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  #eeeeee 0%,#eeeeee 50%,#ffc107 50%,#ffc107 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  #eeeeee 0%,#eeeeee 50%,#ffc107 50%,#ffc107 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#ffc107',GradientType=1 ); /* IE6-9 */
+}
+.home-jumbotron .second .heading{/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffc107+0,ffc107+50,eeeeee+50,eeeeee+100 */
+background: #ffc107; /* Old browsers */
+background: -moz-linear-gradient(left,  #ffc107 0%, #ffc107 50%, #eeeeee 50%, #eeeeee 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  #ffc107 0%,#ffc107 50%,#eeeeee 50%,#eeeeee 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  #ffc107 0%,#ffc107 50%,#eeeeee 50%,#eeeeee 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffc107', endColorstr='#eeeeee',GradientType=1 ); /* IE6-9 */
+}
+.home-jumbotron .first{background:#EEE;}
+.home-text{background:#F6F7FF;}
+.home-bifurcation{background:#F6F6F6;}
+.home-jumbotron .first{color:#111;}
+.home-jumbotron .second, .home-testimonial .heading h5{color:#EEE;}
+.home-text .heading h4, .home-testimonial-writter .righter abbr{color:#ffc107;}
+.home-jumbotron .second .heading h2 span{color:#111;}
+.home-jumbotron .third{background:#ffc107; color:#FFF;}
+.home-testimonial{background:#111;}
+.home-sector li .heading h4{color:#111;}
+.home-testimonial-writter .righter acronym{color:#888;}
+.home-sector li  p, .home-text p, .home-testimonial-text p{color:#68747a;}
+.home-testimonial-text i, .home-testimonial-text u{color:#333;}
+
+.home-text .heading h3, .home-feed .heading h4, .home-bifurcation .heading h6, .home-testimonial .heading h5{font-size:28px; line-height:30px;}
+
+.home-jumbotron{}
+.home-jumbotron .container{}
+.home-jumbotron .container .heading{}
+.home-jumbotron .first, .home-jumbotron .second, .home-jumbotron .third{height:600px;}
+.home-jumbotron .heading h2{margin:250px 0 0;}
+.home-jumbotron .first .heading h2{text-align:right;}
+.home-jumbotron .third .heading h2{text-align:left;}
+.home-jumbotron .first .heading h2, .home-jumbotron .third .heading h2{font-size:108px; line-height:108px;}
+.home-jumbotron .second .heading{margin:255px 0 0;border-radius:50%; height:100px; width:100px; display:inline-block;}
+.home-jumbotron .second .heading h2{font-size:42px; line-height:104px; text-transform:uppercase; text-align:center; letter-spacing:5px; margin:0; text-indent:10px;}
+.home-jumbotron .second{max-width:126px;}
+
+
+
+.home-sector li{width:50%; float:left; padding:20px; list-style:none;}
+.home-sector li .heading h4{margin:0 0 1rem;}
+
+.home-text{padding:55px 0;}
+.home-text p{text-align:center;}
+
+
+.home-feed{padding:55px 0;}
+.home-feed .blog-box, .home-feed .blog-box:hover{box-shadow:none;}
+.home-feed .blog-box:hover{background:#EEE;}
+.home-feed .blog-right > .heading h4{text-align:left;}
+
+.home-bifurcation{padding:55px 20px;}
+.home-bifurcation .heading h6{}
+.home-bifurcation .card{margin:0 21px; border:1px solid #DDD;}
+.home-bifurcation .card-body .heading h6{}
+
+.home-testimonial{padding:55px 0;}
+.home-testimonial-text{padding:15px 115px; position:relative;}
+.home-testimonial-text p{margin:0;}
+.home-testimonial-text i, .home-testimonial-text u{font-style:italic; text-decoration:none; font-size:300px; line-height:69%; text-indent:-42px;}
+.home-testimonial-text i, .home-testimonial-text u{display:block; width:94px; height:86px; overflow:hidden; position:absolute;}
+.home-testimonial-text i{left:0; top:0;}
+.home-testimonial-text u{right:0; bottom:20px;}
+.home-testimonial-writter{padding:15px 0;}
+.home-testimonial-writter .righter{float:right;}
+.home-testimonial-writter .righter abbr, .home-testimonial-writter .righter acronym{float:left;}
+.home-testimonial-writter .righter abbr{margin:0 10px 0 0;}

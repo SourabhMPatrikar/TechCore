@@ -1,0 +1,16 @@
+.contact-box p{font-size:15px; line-height:24px;}
+.contact-box p{color:#68747a;}
+
+.contact > .panel-left{width:calc(100% - 65%);}
+.contact > .panel-right{width:65%;}
+.contact > .panel-right > .panel-right-content > .heading{width:calc(100% - 65%);}
+.contact > .panel-right > .heading{left:calc(100% - 65%);}
+.contact > .panel-left > .panel-left-content{max-width:360px;}
+.contact > .panel-right > .panel-right-content{max-width:768px;}
+
+
+.contact-box{position:relative; z-index:0;}
+.contact-box, .contact-box p{float:left; width:100%;}
+.contact-box p{}
+.contact-box .input-group-text{align-items:start; width:95px; text-align:center;}
+.contact-box textarea.form-control{}

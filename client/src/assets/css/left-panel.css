@@ -1,0 +1,147 @@
+/*Theme Styles : Begin*/
+
+.panel-left-box .heading h3{color:#111;}
+
+.panel-left-box .heading h3{text-shadow:2px 2px 2px #fff;}
+
+.panel-left-box .heading{border-left:3px solid #212529;}
+
+.panel-left-box .heading h3:before{border-left:5px solid #ffc107;}
+
+.blog-tags ul li a{border:1px solid #DFDFDF;}
+
+.blog-tags ul li a, .blog-nav-list ul li a, .contact-connection p, .about-paragraph p{color:#68747a;}
+.blog-tags ul li a:hover, .blog-nav-list ul li a:hover{color:#000;}
+
+.blog-tags ul li a{background:#FFF;}
+.blog-tags ul li a:hover{box-shadow:0 0 7px #aaa;}
+/*Theme Styles : End*/
+
+/*Common Styles : Begin*/
+.panel-left-box,
+.blog-tags, .blog-tags ul, .blog-tags ul li a,
+.blog-nav-list, .blog-nav-list ul, .blog-nav-list ul li, .blog-nav-list ul li a,
+.contact-connection, .about-paragraph{clear:both; float:left; width:100%;}
+
+.blog-tags ul, .blog-tags ul li, .blog-nav-list ul, .blog-nav-list ul li, .contact-connection p, .about-paragraph p{padding:0; margin:0;}
+
+.blog-nav-list ul li a, .blog-tags ul li a, .contact-connection p{font-size:15px; line-height:16px;}
+.about-paragraph p{font-size:15px; line-height:24px;}
+.panel-left-box .heading h3{font-size:18px;}
+.blog-nav-list ul li{font-size:28px; line-height:16px;}
+
+.blog-tags ul li a, .blog-nav-list ul li a, .contact-connection p a, .about-paragraph p a{text-decoration:none;}
+
+.blog-nav-list ul li a{display:-webkit-box; -webkit-box-orient:vertical; overflow:hidden; text-overflow:ellipsis;}
+
+.blog-tags ul li a{border-radius:3px;}
+/*Common Styles : End*/
+
+/* Heading : Begin */
+.panel-left-box{}
+.panel-left-box + .panel-left-box{margin:40px 0 0;}
+.panel-left-box .heading{padding:3px 0;}
+.panel-left-box .heading h3{float:left; margin:0; text-indent:7px; line-height:24px;}
+.panel-left-box .heading h3:before{content:""; float:left; height:18px; margin:3px 0 0;}
+/* Heading : End */
+
+/* Blog Tags : Begin */
+.blog-tags{padding:10px 0 0;}
+.blog-tags ul{margin:-5px 0 0 -5px; max-width:calc(100% + 5px);}
+.blog-tags ul li{float:left; padding:5px 0 0 5px;}
+.blog-tags ul li a{padding:4px 10px;}
+/* Blog Tags : End */
+
+/* Blog Navs : Begin */
+.blog-nav-list{}
+.blog-nav-list ul{}
+.blog-nav-list ul li{margin:12px 0 0 28px; list-style:square outside; width:calc(100% - 40px);}
+.blog-nav-list ul li:first-child{margin:10px 0 0 28px;}
+.blog-nav-list ul li a{-webkit-line-clamp:1;}
+/* Blog Navs : End */
+
+.contact-connection{padding:0 5px 5px 15px;}
+.contact-connection p{padding:10px 0 0;}
+
+
+
+.about-paragraph{padding:0 5px 5px 15px;}
+.about-paragraph p{padding:10px 0 0;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,36 @@
+/*Theme Styles : Begin*/
+header h1 a{color:#DDD !important; text-shadow:0 0 2px #000;}
+header h1 a .core{color:#ffc107;}
+header h1:hover a{color:#FFF;}
+.puch-line{color:#DDD; text-shadow:0 0 1px #000;}
+header .nav li .nav-link{color:#FFF;}
+header .nav li .nav-link:hover{color:#ffc107;}
+header .nav li .nav-link.selective{background:#ffc107; color:#333;}
+header .nav li .nav-link.selective:hover{color:#000;}
+/*Theme Styles : End*/
+
+/*Common Styles : Begin*/
+header h1 a{font-size:28px; line-height:28px;}
+.puch-line{font-size:13px; line-height:14px;}
+header .nav li .nav-link{font-size:16px; line-height:16px;}
+
+header .nav li .nav-link{border-radius:2px;}
+/*Common Styles : End*/
+
+/* Header Base : Begin */
+header{margin:0;}
+header .hold-container{margin:0;}
+header h1{float:left; margin:0;}
+header h1 a{position:relative; margin:-12px 0 0; float:left;}
+.puch-line{width:100%; text-align:center; position:absolute; left:0; bottom:-14px;}
+header .nav{margin:0 5px;}
+header .nav li{margin:0 3px;}
+header .nav li .nav-link{padding:3px 10px;}
+/* Header Base : End */
+
+header .dropdown .dropdown-toggle img{border:1px solid #f8f9fa; background:#000; width:38px; height:38px;}
+header .dropdown .dropdown-menu{display:block;}
+
+
+
+

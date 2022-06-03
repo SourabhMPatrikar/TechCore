@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+header h1 a,
+.footer-copyright .lefter p a,
+.blog-entire .heading h4, header .nav li .nav-link, .msg-feed-curd h6,
+.home-sector li .heading h4, .home-text .heading h4, .home-bifurcation .card-body .heading h6,
+.about-provider .heading h6, .panel-about .heading h4, .sign-box.forgetpassword h2{font-family:'Maven Pro', sans-serif;}
+
+
+.panel-left-box .heading h3,
+.blog-writer h3,
+.blog-writer h4,
+.blog-writer h5,
+.blog-writer h6, .blog-entire .blog-text p, .blog-comment h2, .blog-comment p,
+.msg-feed-curd p, .contact-box p, .contact-connection p,
+.home-sector li p, .home-jumbotron .heading h2, 
+.home-text .heading h3, .home-text p, .home-feed .heading h4, .home-bifurcation .heading h6,
+.home-testimonial .heading h5,
+.about-text p,
+.about-objective .heading h2, .about-provider .heading h3, .about-timeline .heading h4,
+.about-objective .card-body .heading h6, .about-text .heading h2, .panel-holder.panel-fluid .container .heading h3,
+.panel-about .heading h3{font-family: 'Poppins', sans-serif;}
+
+.home-testimonial-text i, .home-testimonial-text u{font-family:'Times New Roman', Times, serif;}
+
+.puch-line, .about-provider .heading caption, .about-text .heading h4, .timeline-box p b{font-family: 'Source Sans Pro', sans-serif;}
+
+
+
+.about-text p{font-weight:400;}
+header .nav li .nav-link, .puch-line{font-weight:500;}
+
+.home-testimonial-writter acronym, .home-testimonial-writter abbr,
+.about-text .heading h4, .about-provider .heading caption, .timeline-box abbr,
+.timeline-box p b{font-weight:600;}
+
+.panel-left-box .heading h3,
+.footer-copyright .lefter p a, .msg-feed-curd h6,
+.home-sector li .heading h4,
+.home-text .heading h3, .home-feed .heading h4, .home-bifurcation .heading h6, .home-bifurcation .card-body .heading h6, 
+.home-testimonial .heading h5, 
+.about-objective .heading h2, .about-provider .heading h3, .about-timeline .heading h4,
+.about-provider .heading h6, .about-objective .card-body .heading h6, .about-text .heading h2, .panel-holder.panel-fluid .container .heading h3,
+.panel-about .heading h3, .panel-about .heading h4{font-weight:700;}
+
+header h1 a,
+.blog-entire .heading h4, .blog-comment h2,
+.home-jumbotron .heading h2, .home-text .heading h4, .sign-box.forgetpassword h2{font-weight:900;}
+
+
+

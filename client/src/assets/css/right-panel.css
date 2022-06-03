@@ -1,0 +1,6 @@
+
+.panel-holder > .panel-left{position:fixed; left:0; top:72px;}
+.panel-holder > .panel-right{float:right;}
+.panel-holder > .panel-right > .heading{top:72px; position:fixed;}
+.panel-holder > .panel-left > .panel-left-content{float:right;}
+.panel-holder > .panel-right > .panel-right-content{float:left;}
