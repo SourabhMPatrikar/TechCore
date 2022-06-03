@@ -1,7 +1,6 @@
 {
   "name": "mern-tech-feeds",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -12,11 +11,12 @@
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.1",
-    "express": "^4.17.2",
+    "express": "^4.18.1",
     "mongoose": "^6.1.8",
     "router": "^1.3.6"
   },
   "devDependencies": {
-    "nodemon": "^2.0.15"
-  }
+    "nodemon": "^2.0.16"
+  },
+  "description": ""
 }
