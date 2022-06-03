@@ -29,12 +29,12 @@ const Container = () => {
     <aside className="hold-container">
       <BrowserRouter>
         <Routes>
-          {/* <Route path="" element={<SignIn />} exact /> */}
+          <Route path="" element={<SignIn />} exact />
           <Route path="/forgetpassword" element={<ForgetPassword />} exact />
           <Route path="/resetpassword" element={<ResetPassword />} exact />
           
-          {/* <Route path="/signin" element={<SignIn />} exact />
-          <Route path="/signup" element={<SignUp />} exact /> */}
+          <Route path="/signin" element={<SignIn />} exact />
+          <Route path="/signup" element={<SignUp />} exact />
           <Route path="/home" element={<Home />} exact />
           <Route path="/about" element={<About />} exact />
           <Route path="/feed" element={<Feed />} />

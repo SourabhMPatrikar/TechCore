@@ -22,6 +22,6 @@ app.get('/',(req, res)=>{
     res.end("Response ended here with Node JS.");
 });
 
-app.listen(5000 , function(){
+app.listen(5555 , function(){
     console.log('Node JS and Express server started successfully with Nodemon.')
 })

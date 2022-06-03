@@ -8,7 +8,7 @@ const SIGNIN_TEMPLATE = {
 };
 
 const SignIn = () => {
-  // const navigate = useNavigate();
+  const navigate = useNavigate();
   
   const params = useParams();
   const [userSignin, setUserSignin] = useState(SIGNIN_TEMPLATE);
@@ -45,7 +45,7 @@ const SignIn = () => {
             const LogedInUser = JSON.stringify(data);
             
             localStorage.setItem('currentUser', LogedInUser)
-            // navigate.push("/home")
+            navigate("/home")
             // history.push("/home")
             
           }
