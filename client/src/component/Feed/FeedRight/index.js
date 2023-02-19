@@ -32,9 +32,23 @@ const FeedRight = () => {
         {/* <Route path="/">
         
         </Route> */}
+
+        
+        <aside className="heading"><h2>Add Feed</h2></aside>
         <aside className="heading"><h2>Feed List</h2></aside>
-        <FeedList />
-      
+        <aside className="panel-right-content">
+            <div className="blog-writing">
+              <FeedAdd />
+            </div>
+            <div className="blog-listing">
+              <FeedList />
+            </div>
+            <div className='clear-fix'></div>
+        </aside>
+        <>
+        </>
+        <>
+        </>
     </aside>
   );
 };

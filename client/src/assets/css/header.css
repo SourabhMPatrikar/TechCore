@@ -29,6 +29,8 @@ header .nav li .nav-link{padding:3px 10px;}
 /* Header Base : End */
 
 header .dropdown .dropdown-toggle img{border:1px solid #f8f9fa; background:#000; width:38px; height:38px;}
+header .dropdown .dropdown-toggle .user-name{margin:0 0 0 10px;}
+header .dropdown .dropdown-toggle:after{margin-bottom:0 0 -2px;}
 header .dropdown .dropdown-menu{display:block;}
 
 

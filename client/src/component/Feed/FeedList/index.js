@@ -23,15 +23,10 @@ function FeedList(){
 
     return(
         <>
-            <aside className="panel-right-content">
-                <div className="blog-listing">
-                    <ul className='row g-4 row-cols-1 row-cols-lg-3'>
-                        {feedList}
-                    </ul>
-                    <div className='clear-fix'></div>
-                </div>
-                <div className='clear-fix'></div>
-            </aside>
+            <ul className='row g-4 row-cols-1 row-cols-lg-3'>
+                {feedList}
+            </ul>
+            <div className='clear-fix'></div>
         </>
     )
 }

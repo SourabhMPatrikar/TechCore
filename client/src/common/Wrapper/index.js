@@ -6,9 +6,9 @@ import Footer from "../Footer/";
 const Wrapper = () => {
   return (
     <aside className="wrapper">
-          <Header />
+          {/* <Header /> */}
           <Container />
-          <Footer />
+          {/* <Footer /> */}
     </aside>
   );
 };

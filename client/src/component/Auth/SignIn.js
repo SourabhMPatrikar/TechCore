@@ -41,10 +41,12 @@ const SignIn = () => {
           const currentUser="";
           if(data.length > 0){
             //console.log("data.length :- ", data.length)
-            console.log("data :- ", data)
-            const LogedInUser = JSON.stringify(data);
+            console.log("user data :- ", ...data)
             
-            localStorage.setItem('currentUser', LogedInUser)
+            const LogedInUser = JSON.stringify(...data);
+            
+            localStorage.setItem('userInfo', LogedInUser)
+            // localStorage.setItem('userLogedIn', true)
             navigate("/home")
             // history.push("/home")
             

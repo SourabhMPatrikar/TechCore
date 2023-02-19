@@ -144,7 +144,7 @@ const About = () => {
                     </div>
                   </div>
                 </div>
-                <div className='col'>
+                {/* <div className='col'>
                   <div className='about-gallery-box'>
                     <div className='about-gallery-img'><img src="https://www.newsshare.in/wp-content/uploads/2017/04/Shehnaz-Kaur-Gill-470x470.jpg" alt="" title="" /></div>
                     <div className='about-gallery-text'>
@@ -155,7 +155,7 @@ const About = () => {
                       </div>
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
               <div className='row'>
                 <div className='col'>

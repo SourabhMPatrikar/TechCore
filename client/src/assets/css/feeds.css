@@ -37,7 +37,7 @@
 
 
 .blog-listing, 
-.blog-entire{overflow:hidden;}
+.blog-entire, .blog-writing{overflow:hidden;}
 
 
 /* Blog List */
@@ -96,3 +96,4 @@
 .msg-feed-curd .btn-box .btn{float:none; display:inline-block; width:150px;}
 
 
+.blog-writing{padding:20px;}

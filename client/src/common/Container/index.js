@@ -24,10 +24,14 @@ import ResetPassword from "../../component/Auth/ResetPassword";
 import FeedLeft from "../../component/Feed/FeedLeft";
 import FeedRight from "../../component/Feed/FeedRight";
 
+import Header from "../Header";
+import Footer from "../Footer";
+
 const Container = () => {
   return (
     <aside className="hold-container">
       <BrowserRouter>
+        <Header />
         <Routes>
           <Route path="" element={<SignIn />} exact />
           <Route path="/forgetpassword" element={<ForgetPassword />} exact />
@@ -50,6 +54,7 @@ const Container = () => {
           <Route path="/feed/feededit/:_id" element={<FeedEdit />} exact />
           <Route path="/feed/feedentire/:_id" element={<FeedEntire />} exact /> */}
         </Routes>
+        <Footer />
       </BrowserRouter>
     </aside>
   );

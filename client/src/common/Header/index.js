@@ -1,9 +1,20 @@
-import React from "react";
+import React,{useState, useEffect} from "react";
 import HeaderLogo from "./Component/HeaderLogo/";
 import HeaderNavigation from "./Component/HeaderNavigation/";
 import HeaderLoginSignup from "./Component/HeaderLoginSignup/";
 import HeaderSearch from "./Component/HeaderSearch/";
 const Header = () => {
+  const logedInUser = localStorage.userInfo;
+  
+  const [hasLogedInUser, setHasLogedInUser] = useState(false)
+  useEffect(()=>{
+    if(logedInUser){
+      setHasLogedInUser(true);
+    }
+    else{
+      setHasLogedInUser(false);
+    }
+  },[logedInUser]);
   return (
     <header className="p-3 bg-dark text-white">
       <div className="hold-container">
@@ -13,7 +24,7 @@ const Header = () => {
           {/* <div className="nav-n-log"> */}
           <HeaderSearch />
           {/* </div> */}
-          <HeaderLoginSignup />
+          <HeaderLoginSignup hasLogedInUser={hasLogedInUser} />
         </div>
       </div>
     </header>
